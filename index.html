@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- HTML Chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <title>SonMinBeen-Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-logo">
+            <img src="http://yescode.dothome.co.kr/img/logo/logo.png" alt="logo">
+        </div>
+        <ul class="nav-list">
+            <li><a href="#aboutme">ABOUT ME</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <h1><strong>안녕하세요.<br>매일 공부하는 개발자<br><span style="color:black">손민빈</span> 입니다.</strong></h1>
+        <p class="pt-5"><strong>「꾸준함」만큼은 누구에게도 지지않습니다. <br> 새로운 기술에 관심이 많으며, 배우기를 즐거워하는 개발자입니다.</strong></p>
+    </div>
+
+    <div class="aboutme" id="aboutme">
+        <h2 class="p-5" style="font-weight: bold; color:#28235b; text-align: center;">ABOUT ME</h2>
+        <div class="container">
+            <div class="white-box">
+                <div class="row">
+                    <div class="col-6 p-1">
+                        <h5 style="font-weight: bold;">NAME</h5>
+                        <p>손민빈</p>
+                    </div>
+                    <div class="col-6 p-1">
+                        <h5 style="font-weight: bold;">DATE OF BIRTH</h5>
+                        <p>1993-01-05</p>
+                    </div>
+                    <div class="col-6 p-1">
+                        <h5 style="font-weight: bold;">E-MAIL</h5>
+                        <p>thsalsqls@gmail.com</p>
+                    </div>
+                    <div class="col-6 p-1">
+                        <h5 style="font-weight: bold;">PHONE NUMBER</h5>
+                        <p>+82 10-3348-3582</p>
+                    </div>
+                    <div class="col-12 p-1">
+                        <h5 style="font-weight: bold;">MOTIVATION</h5>
+                        <p>공항 근처의 한 호텔에서 일했습니다. 자연스럽게 외국인들과 접촉할 수 있었고 또 자연스럽게 외국인들에 대한 애정이 생긴 것 같습니다.
+                            그러면서 저는 외국인과 소통할 수 있는 일을 해야겠다 라고 생각하게 되었습니다. 그렇게 저의 언어 공부가 시작되었습니다. <br>
+                            하지만 '코로나'라는 병이 전세계에 퍼지면서 제가 하려 했던 일들에 제약을 만들었습니다. <br>
+                            저는 무엇을 해야하는지 깊은 고민을 하게 되었고 무엇을 해야하는지 많은 생각을 하게 되었습니다. <br>
+                            그리고 공부 해왔던 언어(외국어)와 웹개발자들의 컴퓨터 언어라는 접점을 통해 웹 개발자로서 공부를 시작하게 되었습니다.
+                        </p>
+                    </div>
+                    <div class="col-12 p-1">
+                        <h5 style="font-weight: bold;">HOW TO STUDY</h5>
+                        <p>다양한 컴퓨터 언어 중 JAVA 라는 언어가 가장 많이 사용된다고 생각되어 강남의 한 학원에 가서 한번 배워보자라는 마음으로 약 2달정도 배웠습니다.
+                            JAVA의 여러 문법들과 그것들을 이용해 여러 기능들을 만들어 보았습니다. 하지만 눈에 보이지 않는 기능들에 점점 제 스스로 이걸로 무엇을 만들 수 있을까라는
+                            의구심이 생겼던 것 같습니다. <br><br>
+                            그래서 일단 눈에 보이는 Front 쪽 공부를 해보자는 마음으로 강의를 찾아보다 생활코딩이라는 무료 강의 사이트를 발견하고 그 곳에서 HTML과 CSS과
+                            JavaScript 의 기초를 배울 수 있었습니다. <br>
+                            그 후 Front 쪽으로 더욱 공부하고 싶다는 생각을 하였고 애플코딩이라는 유료 강의사이트를 통해 조금 더 심화된 HTML,CSS,JavaScript를 공부했고 또
+                            React라는 프레임워크를 공부하였습니다. <br><br>
+                            최근에는 Front와 Back 모두를 이용해 다뤄 사이트를 만들어 보고 싶다 라는 생각이 들어 JSP, JAVA, MySQL 을 이용해 로그인 기능과 게시판을 만들어
+                            보았습니다.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <h2 class="p-5" style="font-weight: bold; color:#28235b">SKILLS</h2>
+        <div class="container">
+            <div class="white-box">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var chart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                labels: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'React', 'Java', 'JSP', 'MySQL'],
+                datasets: [{
+                    label: '%',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: [85, 80, 65, 65, 60, 50, 50, 65, 0, 100]
+                }]
+            },
+            options: {}
+        });
+    </script>
+
+    <div class="projects pb-5" id="projects">
+        <h2 class="p-5" style="font-weight: bold; color:#28235b">PROJECTS</h2>
+        <div class="container">
+            <div class="japanese white-box">
+                <h4 style="font-weight: bold; padding-bottom: 25px;">생활일본어</h4>
+                <div class="projects-slide">
+                    <div>
+                        <img src="img/dailyjapanese1.jpg" alt="" style="width: 90%; margin:auto;">
+                    </div>
+                    <div style="text-align: left;">
+                        <ul type="square">
+                            <li>
+                                <h5>언어 및 기술</h5>
+                                <h6>HTML / CSS / JavaScript / jQuery / Java / JSP / MySQL</h6>
+                            </li>
+                            <li>
+                                <h5>참여도</h5>
+                                <h6>100% (1인 제작)</h6>
+                            </li>
+                            <li>
+                                <h5>중점포인트</h5>
+                                <h6>반응형 웹, 애니매이션, 로그인 기능(이메일 인증),<br>방명록(추천 기능, 정렬 기능)</h6>
+                            </li>
+                            <li>
+                                <h5>사이트 목적</h5>
+                                <h6>친구들에게 일본어를 알려준적이 있습니다. 그때의 자료를 기록하는 겸 일본어를 공부하는 분들이 조금이나마 도움이 될 수 있는 사이트를 만들고
+                                    싶었습니다.<br>그리고 그 사람들과 일본에 대해 소통하고 싶다는 생각에 만든 사이트입니다.</h6>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="img/dailyjapanese2.jpg" alt="" style="width: 90%; margin:auto;">
+                        </div>
+                    </div>
+                    <div>
+                        <h5>1. 반응형 웹 / 애니매이션</h5>
+                        <ul style="text-align: left; margin-top: 20px;">
+                            <li>BootStrap과 MediaQuary를 이용해 반응형 웹사이트로 만들었습니다.</li>
+                            <li>keyframe 을 이용해 버튼의 애니매이션을 만들어 보았고, CSS 3D(flip) 를 이용해 뒤집히는 애니매이션을 만들어 보았습니다.</li>
+                            <li>Navbar를 스크롤해도 보일 수 있게 fixed 를 했고, 내용을 보는대 조금이나마 방해을 줄이기 위해, 아래로 스크롤 될 때 사이즈를 작아지게 했고 어둡게
+                                투명도를 주었습니다.</li>
+                            <li>Carosel를 라이브러리 사용하지 않고 직접 JavaScript를 사용해 만들어 보았습니다.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="img/dailyjapanese3.jpg" alt="" style="width: 90%; margin:auto;">
+                    </div>
+                    <div>
+                        <h5>2. 로그인 / 회원가입(이메일 인증)</h5>
+                        <ul style="text-align: left; margin-top: 20px;">
+                            <li>MySQL과 연결하여 회원가입과 로그인 기능을 만들었습니다.</li>
+                            <li>로그인 상태에서는 로그아웃만 보이도록 만들었습니다.</li>
+                            <li>회원가입 아이디,비밀번호,이메일에는 정규식을 사용했고 정규식에 부합하지 않은 경우 알림이 뜨게 했습니다.</li>
+                            <li>이메일 인증 기능은 SHA(Secure Hash Algorithm)를 이용해서 보안 기능을 만들어 보았습니다.</li>
+                            <li>글쓰기 기능은 로그인과 이메일 인증 후에만 사용할 수 있도록 만들었습니다.</li>
+                            <li>로그인은 되었지만 이메일 인증이 안되어 있는 경우 이메일 재발송 페이지로 이동하게 만들었습니다.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="img/dailyjapanese4.jpg" alt="" style="width: 90%; margin:auto;">
+                    </div>
+                    <div>
+                        <h5>3. 방명록 / 신고기능</h5>
+                        <ul style="text-align: left; margin-top: 20px;">
+                            <li>MySQL과 연결하여 방명록을 관리하도록 하였습니다.</li>
+                            <li>추천기능을 추가하여 MySQL에서 추천순으로 정렬할 수 있게 만들었습니다.</li>
+                            <li>추천은 한번만 누를 수 있게 userID를 MySQL에 같이 등록하도록 하였습니다.</li>
+                            <li>방명록은 5개씩 볼 수 있도록 MySQL를 이용해 페이징 기능을 만들었습니다.</li>
+                            <li>MySQL을 이용해 제목과 내용을 선택해 검색할 수 있는 기능을 만들었습니다.</li>
+                            <li>신고 기능을 만들어 이용자들에게 메일을 받아 불적절한 내용들을 빠르게 관리 할 수 있도록 만들었습니다.</li>
+                            <li>글 등록 시 JavaScript 문법이 사용되지 않도록 replaceALL() 을 이용해 보안 기능을 만들어 보았습니다. </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-5 mb-3">
+                    <a class="btn-view" href="http://gggyo.cafe24.com/index.jsp" target="_blank">VIEW WEBSITE</a>
+                    <a class="btn-view" href="https://github.com/minbeenSon/Daily_Japanese.git" target="_blank">VIEW
+                        CODE</a>
+                </div>
+            </div>
+
+            <div class="cafe white-box mt-5">
+                <h4 style="font-weight: bold; padding-bottom: 25px;">SONcoffee</h4>
+                <div class="projects-slide">
+                    <div>
+                        <img src="img/soncoffee1.jpg" alt="" style="width: 90%; margin:auto;">
+                    </div>
+                    <div style="text-align: left;">
+                        <ul type="square">
+                            <li>
+                                <h5>언어 및 기술</h5>
+                                <h6>React / HTML / CSS / JavaScript</h6>
+                            </li>
+                            <li>
+                                <h5>참여도</h5>
+                                <h6>100% (1인 제작)</h6>
+                            </li>
+                            <li>
+                                <h5>중점포인트</h5>
+                                <h6>React를 통한 웹페이지 구축</h6>
+                            </li>
+                            <li>
+                                <h5>목적</h5>
+                                <h6>현재 카페에서 일을 하고 있고, <br> 자신이 좋아하는 것으로 쇼핑 사이트를 만들어 보고 싶어 만든 사이트입니다.</h6>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="img/soncoffee2.jpg" alt="" style="width: 90%; margin:auto;">
+                    </div>
+                    <div>
+                        <h5>특징</h5>
+                        <ul style="text-align: left; margin-top: 20px;">
+                            <li>Redux을 이용해 모든 컴포넌트에서 데이터를 받을 수 있게 만든 후 reducer 와 dispatch 를 이용해 Cart페이지의 데이터를 관리하도록
+                                하였습니다. </li>
+                            <li>Data.js 에 아이템들의 Data를 작성해 작성된 Data를 이용해 데이터바인딩을 해봤습니다.</li>
+                            <li>컴포넌트로 쪼개서 직관적으로 보일 수 있도록 만들어 보았습니다.</li>
+                            <li>Grid를 통해 새로운 모양을 레이아웃을 시도해봤습니다. </li>
+                            <li>메뉴에 이용한 이미지는 실제로 제가 일하고 있는 카페에서 촬영하고 편집해서 등록한 것입니다.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-5 mb-3">
+                    <a class="btn-view" href="#">VIEW WEBSITE</a>
+                    <a class="btn-view" href="#">VIEW CODE</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('.projects-slide').slick({
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 2
+        });
+    </script>
+
+    <footer>
+        <div>Thank you for visiting my website.</div>
+        <p>Copyright. 2021. Son Min Been. All rights reserved <br> Designed by Son Min Been</p>
+    </footer>
+
+</body>
+
+</html>

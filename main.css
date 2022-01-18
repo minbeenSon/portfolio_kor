@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+}
+nav {
+    background-color: #e9ece7; 
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    text-align: center;
+}
+.nav-logo {
+    padding: 10px;
+}
+.nav-logo img {
+    width: 60px;
+}
+
+.nav-list li {
+   display: inline-block; 
+   padding: 17px;
+   color: #28235b;
+   letter-spacing: 1.5px;
+   font-weight: bold;
+   margin: 0 5px;
+   position: relative;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: #28235b;
+}
+.nav-list li:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+    width: 0px;
+    height: 2px;
+    margin: 5px 0 0;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    background-color: #28235b;
+  }
+
+.nav-list li:hover:after {
+    width: 100%;
+    opacity: 1;
+    
+}
+.main {
+    background-color: #b7d3e0;
+    text-align: center;
+    height: 600px;
+    color: #28235b;
+    padding-top: 180px;
+}
+
+.aboutme {
+    background-color: #fbf8f0;
+    height: 950px;
+}
+.white-box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;   
+}
+
+.skills {
+    background-color: #e9edeb;
+    text-align: center;
+    height: 750px;
+}
+#myChart {
+    background-color: white;
+}
+
+.projects {
+    text-align: center;
+    background-color: #fbf8f0;
+}
+
+.projects-slide {
+    position: relative;
+}
+.slick-prev {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 0%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: white;
+    text-align: center;
+    font-size: 0;
+}
+.slick-prev::before {
+    content: "\f053";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 15px;
+    color: #fff;
+}
+.slick-next {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    right: 0%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: white;
+    text-align: center;
+    font-size: 0;
+}
+.slick-next::before {
+    content:"\f054";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 15px;
+    color: #fff;
+}
+.btn-view {
+    width: 100px;
+    margin: 20px;
+    background-color: #c1aba0;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn-view:hover {
+    background: beige;
+}
+
+footer {
+    background-color: #c1aba0;
+    color: white;
+    text-align: center;
+    height: 140px;
+    padding: 30px;
+}
+
+@media screen and (max-width:990px) {
+    nav{
+        display: block;
+        height: 120px;
+    }
+    .aboutme {
+        height: 1070px;
+    }
+    .skills {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    nav{
+        display: block;
+        height: 120px;
+    }
+    .aboutme {
+        height: 1250px;
+    }
+    .skills {
+        height: 500px;
+    }
+}
